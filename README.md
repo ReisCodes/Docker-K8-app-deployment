@@ -123,11 +123,21 @@ spec:
 kubectl create -f app-deploy.yml
 ```
 
-3. We can see the pods deployed in our single-node cluster with:
+3. We can see the deploment with:
+
+```
+kubectl get deploy
+```
+
+![](deploy.png)
+
+And to see each individual pod
 
 ```
 kubectl get pods
 ```
+
+![](pods.png)
 
 4. Although we have created the deployment if we go to `localhost:3000` we wont see the app deployed, this is because we need to expose this deployment with a service. So create a file `app-service.yml`, this will have configeration on how to make this deployement accessible. 
 
