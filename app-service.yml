@@ -1,0 +1,25 @@
+# Select the type of API version and type of service/object
+apiVersion: v1
+
+# what kind of service/object do you want to create?
+kind: Service
+
+# Metadata for name
+metadata:
+  name: node-svc
+  namespace: default #sre
+# Specification to include ports Selector to connect to the app
+spec:
+  ports:
+  - nodePort: 30001 # range is 30000-32768
+    port: 3000
+
+
+    targetPort: 3000
+
+  # lets define the selector and label to connect to node deploment
+  selector:
+    app: node 
+
+  # Creating NodePort type of deployement 
+  type: NodePort 
