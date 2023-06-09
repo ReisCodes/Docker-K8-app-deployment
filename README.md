@@ -1,6 +1,6 @@
 # Using Docker and Kubernetes to Deploy Sparta App locally 
 
-### Creating Docker image of the Sparta App 
+## Creating Docker image of the Sparta App 
 
 <b>Prerequisite:</b> 
   - Ensure you have Docker Desktop downloaded and running - https://www.docker.com/products/docker-desktop/
@@ -85,7 +85,7 @@ docker push <Dockerhub_acc_name>/<repo_name>:<tag>
 
 ![](dockerhub.png)
 
-### Using Kubernetes to use Docker image to deploy Sparta App 
+## Using Kubernetes to use Docker image to deploy Sparta App 
 
 1. First thing we need to do is create a deployment file, using VSC makes this easier, name the file `app-deploy.yml` this file acts as configeration file. 
 
