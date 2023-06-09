@@ -65,7 +65,7 @@ docker run -d -p 3000:3000 <Dockerhub_acc_name>/<repo_name>:<tag> .
 
 Can verify its running by navigating on your browser to - localhost:3000.
 
-![](port-3000.png)
+![](docker-ps.png)
 
 6. To get the container ID, use the command
 
@@ -73,7 +73,7 @@ Can verify its running by navigating on your browser to - localhost:3000.
 docker ps
 ```
 
-![](docker-ps.png)
+![](port-3000.png)
 
 Then to stop the container running use `docker stop <container_ID>`
 
