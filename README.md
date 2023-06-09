@@ -1,4 +1,4 @@
-# Using Docker and Kubernetes to Deploy Sparta App locally 
+# Using Docker and Kubernetes to Deploy Sparta App Locally 
 
 ## Creating Docker image of the Sparta App 
 
