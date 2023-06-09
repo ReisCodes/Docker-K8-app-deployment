@@ -123,15 +123,8 @@ spec:
 kubectl create -f app-deploy.yml
 ```
 
-3. We can see the deploment with:
+3. We can see the deploment the individual pods with:
 
-```
-kubectl get deploy
-```
-
-![](deploy.png)
-
-And to see each individual pod
 
 ```
 kubectl get pods
